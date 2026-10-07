@@ -2,6 +2,16 @@
 
 映拾是一款 Windows 桌面哔哩哔哩（Bilibili / B站）视频下载器，使用 BBDown 作为下载核心。支持通过视频链接、BV 号批量下载 B站视频，以及音频、字幕、弹幕和封面。提供图形界面，无需输入下载命令，并附带东方 Project 同人角色主题。
 
+## 下载软件（无需编译）
+
+**[下载映拾 5.1 安装程序 · 约 9.5 MB](https://github.com/lujiuyuan421/Yingshi/releases/download/v5.1.0/Yingshi-5.1-Setup.exe)** ｜ [版本发布与优化源码](https://github.com/lujiuyuan421/Yingshi/releases/tag/v5.1.0)
+
+1. 下载 `Yingshi-5.1-Setup.exe`，双击开始安装。
+2. 安装期间保持联网，自动下载并校验约 33.7 MB 的视频处理组件。
+3. 安装完成后，双击桌面“映拾 · 哔哩哔哩视频下载器”，粘贴视频链接或 BV 号即可使用。
+
+适用于 64 位 Windows，需 .NET Framework 4.5 或更高版本；安装后约占 130 MB。5.1 安装版和优化源码见上方发布页，下面是仓库基础界面的手动构建说明。
+
 ![大小姐主题](assets/screenshot-remilia.png)
 
 ## 哔哩哔哩视频下载功能
@@ -28,7 +38,7 @@
 5. 准备可正常运行的 [FFmpeg](https://ffmpeg.org/download.html)，同样放入 `dist`；若使用 shared 构建，必须一并放入其所需 DLL。
 6. 双击界面程序即可使用。
 
-MP4Box 与 aria2 是可选组件，在高级设置中选择程序路径即可。仓库不提供或自动下载第三方可执行文件。
+MP4Box 与 aria2 是可选组件，在高级设置中选择程序路径即可。手动构建需自行准备依赖；5.1 联网安装版内含 BBDown，并在安装时自动下载 FFmpeg。
 
 ## 项目结构
 
