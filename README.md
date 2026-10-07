@@ -1,10 +1,10 @@
-# 映拾 · 幻想乡花映集
+# 映拾：哔哩哔哩（Bilibili）视频下载器
 
-Windows 桌面视频下载工具，使用 BBDown 作为下载核心。以东方 Project 同人角色主题装饰界面，支持切换角色主视觉、配色与动态效果。
+映拾是一款 Windows 桌面哔哩哔哩（Bilibili / B站）视频下载器，使用 BBDown 作为下载核心。支持通过视频链接、BV 号批量下载 B站视频，以及音频、字幕、弹幕和封面。提供图形界面，无需输入下载命令，并附带东方 Project 同人角色主题。
 
 ![大小姐主题](assets/screenshot-remilia.png)
 
-## 功能
+## 哔哩哔哩视频下载功能
 
 - 批量输入视频链接、BV / av / ep / ss 编号。
 - 网页、TV、APP、国际版解析，画质与编码优先级、分 P 选择。
@@ -19,7 +19,7 @@ Windows 桌面视频下载工具，使用 BBDown 作为下载核心。以东方 
 
 ## 构建与运行
 
-适用于安装了 .NET Framework 4.x 的 Windows；不需要安装第三方界面框架。
+适用于安装了 .NET Framework 4.5 或更高版本的 Windows；不需要安装第三方界面框架。
 
 1. 下载或克隆本仓库。
 2. 在项目目录执行 `powershell -ExecutionPolicy Bypass -File .\build.ps1`。
